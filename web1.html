@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+        }
+        .header{
+            background-image:url(images/Vp3L.gif) ;
+            background-repeat: no-repeat;
+            background-attachment: ;
+            background-position: left;
+            background-size: contain;
+
+            display: flex;
+            flex-direction: row;
+            height: 100px;
+            background-color: yellow  ;
+            align-items: center;
+            justify-content: space-around;
+        box-shadow: 0.5px 0.5px 5px rgb(49, 49, 151);
+        }
+        
+        .logo{
+        /*  color: rgb(35, 191, 243);*/
+        color: darkblue;   
+        margin-left: 20px;
+font-family: "Bebas Neue";
+font-size: 45px;
+display: flex;
+align-items: center;
+        }
+        .logo img{
+            margin-right: 10px;
+            width: 40px;
+            height: 40px;
+        }
+      
+        .nav{
+          font: 19px "Fjalla One";
+           display: flex;
+            
+        }
+        .nav a{
+            color: rgb(37, 37, 88);
+            font-weight: bold;
+           
+            margin-left: 15px;
+            margin-right: 15px;
+            text-decoration: none;
+            
+
+        }
+        .join-button{
+            height: 50px;
+            width: 100px;
+            margin-left: 40px;
+            background-color:rgb(63, 194, 238);
+            color: white;
+            font: 19px cursive;
+            border: none;
+            border-radius: 25px;
+          
+        }
+        @media (max-width:800px) {
+          
+            .logo img{
+                width: 0px;
+                height: 0px;
+                margin-right: 0;
+            }
+            .nav a{
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            
+            
+        }
+        .home{
+            padding-top: 20px;
+            padding-left: 20px;
+            height: 500px;
+            background-color:
+            #0084FF;
+            display: grid;
+            grid-template-columns: 500px 1fr;
+            color: white;
+            align-items: center;
+            
+            font: 42px Cursive;
+        }
+        @media (max-width:700px) {
+            .home{
+                grid-template-columns: 1fr;
+                background-color: #0084FF;
+            }
+            
+        }
+       
+        .content{
+            background-color:
+            #0084FF;
+        }
+        .only{
+          margin: 20px 0;
+            animation-name: exa;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            -moz-animation-direction: reverse;
+  
+        }
+        .learn{
+            color: white;
+            font: 19px cursive;
+            border-radius: 25px;
+            height:35px;
+            width: 200px;
+            border: none;
+            background-color: rgb(13, 13, 218);
+            box-shadow: 1px 1px 5px blue;
+        }
+        .background-image{
+            height: 500px;
+           background-image: url(images/—Pngtree—white\ cartoon\ clouds\ clipart_5568114.png);
+background-position:center center   ;
+
+filter: drop-shadow(2px 2px 5px rgb(200, 255, 0));
+background-size: 800px;
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+justify-items: center;
+
+        }
+        .background-image img{
+           
+            width: 350px;
+            margin-bottom: 90px;
+            box-shadow: inset 1px 1px 5px white;
+            
+        }
+        @media (max-width:800px) {
+          .background-image{
+            height: 0px;
+          }
+          .background-image img{
+            visibility: hidden;
+          }
+            
+        }
+        @keyframes exa{
+            from{
+                color: white;
+                background-color: rgb(0, 132, 255);
+            }
+            to{
+               
+                background-color: white;
+            }
+        }
+      </style>
+      <style>
+        .classey{
+
+        }
+        .classey p{
+            font: 42px "Bebas Neue";
+            text-align: center;
+           
+        }
+        .classes{ 
+            display: grid;
+            grid-template-columns:repeat(auto-fill,minmax(400px,1fr)) ;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+        }
+      .subject{
+       
+        border: 1px solid lightblue;
+        box-shadow: 1px 1px 3px blue;
+        border-radius:30px;
+        padding: 15px;
+        height: fit-content;
+        width: 380px;
+        margin-bottom: 50px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 100px 1fr;
+      }
+      .subject .icon img{
+        width: 80px;
+      }
+      .subject p,details{
+        color: grey;
+      }
+      summary{
+        color: darkblue;
+      }
+        
+       
+      </style>
+      <style>
+        .class-info{
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+
+        }
+        .clases{
+            font: 42px "Bebas Neue";
+            text-align: center;
+        }
+        
+        .timing{
+height:200px; 
+
+            display: flex;
+           
+        }
+        .times{
+            margin-left: 50px;
+            position: relative;
+        }
+        .time-button button{
+            width: 200px;
+            height: 70px;
+            background-color: #0084FF;
+        color: White;
+        font: 28px "Oswald";
+        border-radius: 25px;
+        border-style: none;
+        cursor: pointer;
+        
+        }
+        .time-button button:hover{
+            border-radius: 25px;
+            background-color: #0978e0;
+        }
+        .time-button button:active{
+            border-radius: 25px;
+            background-color: #5985E1;
+            width: 230px;
+        }
+        .infor{
+            visibility: hidden;
+            font: 42px bebas Neue;
+            width: 1000px;
+       
+            position: absolute;
+        }
+        .time-button:active .infor{
+           margin-top: 50px;
+            visibility: visible;
+            animation: exa1 2.8s infinite;
+        }
+        
+
+        
+      @keyframes exa1 {
+            0%{top: 0px;left: 1300px; color: rgb(18, 247, 255);}
+            70%{top: 0px; left: 500px;  color: darkblue;}
+           
+            100%{top: 0px; left: 500px;  color: darkblue;}
+           
+
+            
+        }
+        @media (max-width:800px){
+            .infor{
+                font-size: 25px;
+                
+            }
+            .time-button:active .infor{
+           margin-top: 50px;
+            visibility: visible;
+            animation: exa800 2.8s infinite;
+        }
+        }
+        @keyframes exa800 {
+            0%{top: 0px;left: 500px; color: rgb(18, 247, 255);}
+            70%{top: 0px; left: 300px;  color: darkblue;}
+           
+            100%{top: 0px; left: 300px;  color: darkblue;}
+            
+        }
+        .no{
+            visibility: hidden;
+           
+        }
+        .time-button:active .no{
+            visibility: visible;
+              
+        }
+     .Day-order{
+       
+        display: grid;
+        grid-template-columns: 1fr;
+
+     }
+     .orders{
+        
+        
+        display: flex;
+        justify-content: space-around;
+       
+     }
+     .orders1{
+        display: flex;
+        justify-content: space-around;
+     }
+     .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        width: 300px;
+        border: 1px solid blue;
+        border-radius: 25px;
+        margin-bottom: 25px;
+        
+     }
+     @media (max-width:800px){
+        .box{
+            width: 220px;
+            height: 150px;
+           
+        }
+        
+     }
+     .heading{
+        text-align: center;
+        font: 42px bebas Neue;
+        color: #0084FF;
+        margin-bottom: 20px;
+     }
+     .orders .box:nth-child(odd), .orders1 .box:nth-child(even){
+        border: 2px solid blue;
+        background-color: #004177;
+        color: white;
+        font: 28px Oswald;
+        animation: anime1 5s infinite;
+     }
+     .orders .box:nth-child(even), .orders1 .box:nth-child(odd){
+        border: 2px solid blue;
+        background-color: #0051ff;
+        color: white;
+        font: 28px Oswald;
+        animation: anime2 5s infinite;
+     }
+    
+    @keyframes anime1{
+        from{
+            background-color: #004177;
+        }
+        to{
+            background-color: #0051ff;
+        }
+    }
+    @keyframes anime2 {
+        from{
+            background-color: #0051ff;
+        }
+        to{
+            background-color: #004177;
+        }
+    }
+        
+      </style>
+     <style>
+       
+        .tutor{
+            height: fit-content;
+            display: block;
+        }
+        .Image-holder{
+            height:300px;
+           
+           display: grid;
+           grid-template-columns: 1fr;
+           
+           justify-items: center;
+        }
+        .Image-holder img{
+           border-radius: 400px;
+            height: 300px;
+        }
+        .con-1{
+            display: flex;
+            justify-items: center;
+            justify-content: space-around;
+        }
+        .points{
+            
+  
+        }
+        .points p{
+            color: #004177;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            font: 30px "Fjalla One";
+
+        }
+        .points ul{
+           
+            font: 19px verdana;
+        }
+        .PDF{
+            margin-top: 20px;
+            margin-bottom: auto;
+            width: 100%;
+            height: 100px;
+        }
+        .points ul li{
+            color: rgb(114, 108, 108);
+            margin: 1px;
+            padding: 2px;
+            list-style-type: disc;
+            list-style-image: url(images/360_F_295353909_EiD7KwwVgJ4vhN2gdoVj9MX7QmpIKHzP.jpg);
+           
+        }
+        .me{
+            margin-top: 50px;
+            
+            
+        }
+        .me p{
+            font: 22px Oswald;
+        }
+        summary{
+            cursor: pointer;
+            font-size: 22px;
+            text-align: center;
+        }
+     </style>
+     <style>
+        .subs{
+            margin-left: 10px;
+            margin-bottom: 25px;
+            width: 250px;
+            padding: 25px 0px;
+            border: 6px solid #0051ff;
+            
+        }
+        .subs ul li{
+            display: flex;
+            align-items: center;
+            
+        }
+        .subs ul li{
+            cursor: pointer;
+            font: 19px Oswald;
+            list-style: none;
+            margin-bottom: 15px;
+        }
+        .subs ul li img{
+           cursor: pointer;
+            height: 35px;
+            width: 35px;
+           
+        }
+        .subs details summary{
+            font: 28px Bebas Neue;
+            margin-bottom: 5px;
+        }
+        .container{
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr ;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+      
+
+        }
+
+     </style>
+     <style>
+        .form{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: fit-content;
+        }
+        @media (max-width:800px) {
+            .form{
+            grid-template-columns: 1fr;
+        }
+        }
+        .con-2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+            font: 32px Bebas Neue;
+        }
+     </style>
+     <style>
+        .thank-you{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt27uSoFwVhRih9YDGDLx1AxYsAmQs_gSxGg&s);
+            background-repeat: repeat;
+            background-size: cover;
+            height:600px;
+            background-position: right;
+            position: relative;
+        }
+        .blue{
+            font-family: cursive;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: blue;
+            width: 100%;
+            height: 600px;
+            opacity: 0.5;
+            
+        }
+        .blue-c{
+            font-family: cursive;
+            color: white;
+            font-size:40px ;
+            opacity: 1;
+            text-align: center;
+            
+        }
+     </style>
+     <style>
+        .black{
+            padding: 50px;
+            background-color: black;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            align-items: center;
+            justify-items: center;
+            justify-content: space-between;
+        }
+        .Social img{
+            cursor: pointer;
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            margin: 10px;
+        }
+        .Social p{
+            margin-bottom: 15px;
+            color: whitesmoke;
+            font: 28px cursive;
+        }
+        .Terms p{
+            color: whitesmoke;
+            font: 28px cursive;
+        }
+        .Services p{
+            color: whitesmoke;
+            font: 28px cursive;
+        }
+        .black ul{
+            font: 15px verdana;
+            color: grey;
+        }
+        .black ul li{
+            list-style: none;
+            margin: 5px;
+        }
+        
+     </style>
+     <style>
+        .copy{
+            color: black;
+            background-color: lightblue;
+        }
+        .ki{ 
+            position: fixed;
+            width: 70px;
+            height: 70px;
+            bottom: 10px;
+            right:10px;
+            z-index: 100;
+        }
+        .ki img{
+            z-index: 100;
+            border-radius:35px;
+            width: 100%;
+        }
+        a{
+            cursor: pointer;
+        }
+     </style>
+</head>
+<body>
+    <div class="ki">
+       <a href="https://chat.whatsapp.com/G4BiLyWoWcXFH84VCPyp7I" target="_blank"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA38HLYXwnysCfnv8wS3SpV9ztESyaxYlJiw&s" alt="">
+       </a>
+    </div>
+    <header class="header">
+        <div class="logo">
+            <img src="images/school_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="">
+            ASPIRE TUTORING
+            <img src="images/Ybin.gif" alt="">
+
+        </div>
+        <div class="nav">
+            <a href="">Home</a>
+            <a href="">Classes</a>
+            <a href="">Tutor</a>
+            <a href="">Notes</a>
+            <a href="">Syllabus</a>
+            <a href="">About</a>
+
+        </div>
+        <div class="join" style="cursor:pointer;">
+           <a href="https://forms.gle/nbW2szVeD9EMH6hx8" target="_blank"> <button class="join-button" style="cursor:pointer;">Join Now</button>
+           </a>
+        </div>
+
+    </header>
+    <div class="home">
+        <div class="content">
+            <h2>Home Tuition</h2>
+            <h4>For 11th and 12th</h3>
+            <h5>Commerce Group Studnets</h4>
+            <div class="only" style="
+            
+            text-align: center;
+            display: grid;
+            align-items: center;
+            font-size: 35px;
+            font-family:Fjalla One ;
+            white-space: wrap;
+            color: rgb(0, 132, 255);
+                border-radius: 100px;
+                background-color: white;
+                width:200px;
+                height: 200px;
+
+                ">
+                @Rs. 800/- only
+            </div>
+            <button class="learn">Learn More</button>
+
+        </div>
+        <div class="background-image">
+          <img src="images/Screenshot 2024-06-22 213851.jpg" alt="">
+
+        </div>
+       
+        </div>
+<hr style="border-color: blue;">
+<div class="classey">
+    <p style="color: rgb(4, 134, 255); margin: 30px;">--subject Taken--</p>
+
+    <div class="classes">
+        <div class="subject">
+            <div class="icon">
+                <img src="images/temple_hindu_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="">
+            </div>
+            <div class="cap">
+                <p style="color:#5985E1;font: 30px Pacifico;">Tamil</p>
+                <p style="font: 14px Oswald;">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequatur!
+i nisi, recusandae modi similique, delectus accusantium?
+<details style="font: 14px Oswald;">
+    <summary>learn more</summary>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugiat.
+</details>                
+</p>
+            </div>
+        
+        </div>
+        <div class="subject">
+        <div class="icon">
+            <img src="images/south_america_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="">
+        </div>
+        <div class="cap">
+            <p style="color:#5985E1;font: 30px Pacifico;">English</p>
+            <p style="font: 14px Oswald;">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequatur!
+i nisi, recusandae modi similique, delectus accusantium?
+<details style="font: 14px Oswald;">
+<summary>learn more</summary>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugiat.
+</details>                
+</p>
+        </div>
+    
+         </div>
+        <div class="subject">
+    <div class="icon">
+        <img src="images/store_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="">
+    </div>
+    <div class="cap">
+        <p style="color:#5985E1;font: 30px Pacifico;">Commerce</p>
+        <p style="font: 14px Oswald;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequatur!
+i nisi, recusandae modi similique, delectus accusantium?
+<details style="font: 14px Oswald;">
+<summary>learn more</summary>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugiat.
+</details>                
+</p>
+    </div>
+
+        </div>
+        <div class="subject">
+            <div class="icon">
+                <img src="images/monitoring_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="">
+            </div>
+            <div class="cap">
+                <p style="color:#5985E1;font: 30px Pacifico;">Economics</p>
+                <p style="font: 14px Oswald;">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequatur!
+        i nisi, recusandae modi similique, delectus accusantium?
+        <details style="font: 14px Oswald;">
+        <summary>learn more</summary>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugiat.
+        </details>                
+        </p>
+            </div>
+        
+        </div>
+        <div class="subject">
+                    <div class="icon">
+                        <img src="images/currency_rupee_circle_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                    </div>
+                    <div class="cap">
+                        <p style="color:#5985E1;font: 30px Pacifico; color:#5985E1;">Accountancy</p>
+                        <p style="font: 14px Oswald;">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequatur!
+                i nisi, recusandae modi similique, delectus accusantium?
+                <details style="font: 14px Oswald;">
+                <summary>learn more</summary>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugiat.
+                </details>                
+                </p>
+                    </div>
+                
+        </div>
+
+        <div class="subject">
+                            <div class="icon">
+                                <img src="images/history_edu_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                            </div>
+                            <div class="cap">
+                                <p style="color:#5985E1;font: 30px Pacifico;">History</p>
+                                <p style="font: 14px Oswald;">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequatur!
+                        i nisi, recusandae modi similique, delectus accusantium?
+                        <details style="font: 14px Oswald;">
+                        <summary>learn more</summary>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugiat.
+                        </details>                
+                        </p>
+                            </div>
+                        
+            </div>
+        <div class="subject">
+                                    <div class="icon">
+                                        <img src="images/devices_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                                    </div>
+                                    <div class="cap">
+                                        <p style="color:#5985E1;font: 30px Pacifico;">Computer Apllicatons</p>
+                                        <p style="font: 14px Oswald;">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequatur!
+                                i nisi, recusandae modi similique, delectus accusantium?
+                                <details style="font: 14px Oswald;">
+                                <summary>learn more</summary>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugiat.
+                                </details>                
+                                </p>
+                                    </div>
+                                
+            </div>
+        <div class="subject">
+                   <div class="icon">
+                            <img src="images/description_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                         </div>
+                         <div class="cap">
+                                                <p style="color:#5985E1;font: 30px Pacifico;">MS Office</p>
+                            <p style="font: 14px Oswald;">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequatur!
+                                        i nisi, recusandae modi similique, delectus accusantium?
+                                        <details style="font: 14px Oswald;">
+                                        <summary>learn more</summary>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugiat.
+                                        </details>                
+                                        </p>
+                                            </div>
+                                        
+      </div>
+      <div class="subject">
+        <div class="icon">
+            <img src="images/smart_toy_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="">
+        </div>
+        <div class="cap">
+            <p style="color:#5985E1;font: 30px Pacifico;">Basic Computers</p>
+            <p style="font: 14px Oswald;">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequatur!
+i nisi, recusandae modi similique, delectus accusantium?
+<details style="font: 14px Oswald;">
+<summary>learn more</summary>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugiat.
+</details>                
+</p>
+        </div>
+    
+    </div>
+    
+    </div>
+
+</div>
+<hr style="border-color: blue;">
+<div class="class-info">
+    <p class="clases" style=" color: rgb(4, 134, 255); margin-top: 20px; ">--Classes--</p>
+    <div class="timing">
+        <div class="times" style="display: flex;align-items: center;justify-content: center;">
+        <div class="time-button"><button>    <p style="white-space: nowrap;margin-left: 30px;">Timing <span class="no" >&#128341;</span> </p> </p> </button>
+<p style="color: red;font: 13px cursive;margin-left: 12px;"> *CLick the Timing button</p>
+        <div class="infor">
+          <p style="margin-bottom: 50px;">  6.00PM TO 8.00PM
+          (Weekly 6 Days)</p>
+       </div>
+    </div>
+    </div>
+
+        </div>
+        <div class="Day-order">
+            <div class="heading">--Day Orders--</div>
+            <div class="orders">
+                <div class="box">
+                    <p>Day 1</p>
+                    <p>Accountancy</p>
+                </div>
+                <div class="box">
+                    <p>Day 2</p>
+                    <p>Commerce/Economics</p>
+                </div>
+                <div class="box">
+                    <p>Day 3</p>
+                    <p>Tamil/English</p>
+                </div>
+
+
+            </div>
+            <div class="orders1">
+                <div class="box">
+                    <p>Day 4</p>
+                    <p>History/ComputerApp</p>
+                </div>
+                <div class="box">
+                    <p>Day 5</p>
+                    <p>Accountancy</p>
+                </div>
+                <div class="box">
+                    <p>Day 6</p>
+                    <p>SoftSkills</p>
+                </div>
+
+
+            </div>
+        </div>
+</div>
+<hr style="border-color: blue;">
+<div class="full" style="height: fit-content;">
+<div class="tutor">
+    <div class=""><p class="clases" style=" color: rgb(4, 134, 255); margin-top: 20px; ">--Tutor's Detail--</p></div>
+    <div class="Image-holder">
+        <img src="images/1719156986750.jpeg" alt="">
+    </div>
+    <div>
+        <div class="me">
+          
+            <p style="margin-bottom: 20px;">
+            I am Abbas A, offering specialized tuition for 11th and 12th grade commerce students. With top scores of 569/600 (95%) and 395/400 (99%) in my 12th grade, I bring expertise in MS Office, effective communication, and advanced teaching methods. My commitment to education is bolstered by strong time management and coding skills. Join me to excel in commerce subjects and achieve academic excellence.
+        </p>
+            
+        </div>
+       <details>
+        
+        <summary>Learn More</summary>
+    
+            <div class="con-1">
+                <div class="points">
+                   <p> 12th Mark<p>
+                    <ul>
+                        <li>Mark : 569/600</li>
+                        <li>Percentage : 95%</li>
+                        <li>Cutoff : 395/400</li>
+                        <li>Percentage : 99%</li>
+                        
+                    </ul>
+                </div>
+                <div class="points">
+                   <p> Achievements</p>
+                    <ul>
+                        <li>School Topper</li>
+                        <li>College Topper</li>
+                        <li>Craeted Own webs</li>
+                        <li>Tutor in AT</li>
+                        <li>MS Office Intermediate</li>
+                    </ul>
+                </div>
+                <div class="points">
+                   <p> Skills</p>
+                    <ul>
+                        <li>MS office (Inter)</li>
+                        <li>Good Communication skill</li>
+                        <li>Teaching Skill</li>
+                        <li>Time Management</li>
+                        <li>Coding Knowledge</li>
+                        <li>Computer Knowledge (Inter)</li>
+                    </ul>
+                </div>
+                <div class="points">
+                  <p>  Resume</p>
+                  <a href="images/ABBAS resume 2024.pdf" target="_blank">
+                  <img class="PDF" src="images/PDF.png" alt="">
+                </a>
+                </div>
+            </details>
+            </div>
+        
+    </div>
+    <br><br><br>
+</div>
+<hr style="border-color: blue;">
+<div class="notes">
+    <br><br>
+   <div class="clases" style=" color: rgb(4, 134, 255)">--NOTES--</div>
+   <br><br>
+   <div class="container"> 
+   <div class="subs">
+        <details><Summary>Tamil</Summary>
+    <ul>
+        <li><img style="" src="images/PDF.png" alt="">&nbsp; Notes 1</li>
+        <li><img src="images/PDF.png" alt="">&nbsp;
+ Notes 2</li>
+        <li><img src="images/PDF.png" alt="">&nbsp; Notes 3</li>
+    </ul>
+</details> 
+    </div>
+    <div class="subs">
+        <details><Summary>English</Summary>
+    <ul>
+        <li><img style="" src="images/PDF.png" alt="">&nbsp; Notes 1</li>
+        <li><img src="images/PDF.png" alt="">&nbsp;
+ Notes 2</li>
+        <li><img src="images/PDF.png" alt="">&nbsp; Notes 3</li>
+    </ul>
+</details> 
+    </div>
+    <div class="subs">
+        <details><Summary>Commerce</Summary>
+    <ul>
+        <li><img style="" src="images/PDF.png" alt="">&nbsp; Notes 1</li>
+        <li><img src="images/PDF.png" alt="">&nbsp;
+ Notes 2</li>
+        <li><img src="images/PDF.png" alt="">&nbsp; Notes 3</li>
+    </ul>
+</details> 
+    </div>
+    <div class="subs">
+        <details><Summary>Accountancy</Summary>
+    <ul>
+        <li><img style="" src="images/PDF.png" alt="">&nbsp; Notes 1</li>
+        <li><img src="images/PDF.png" alt="">&nbsp;
+ Notes 2</li>
+        <li><img src="images/PDF.png" alt="">&nbsp; Notes 3</li>
+    </ul>
+</details> 
+    </div>
+    <div class="subs">
+        <details><Summary>Economics</Summary>
+    <ul>
+        <li><img style="" src="images/PDF.png" alt="">&nbsp; Notes 1</li>
+        <li><img src="images/PDF.png" alt="">&nbsp;
+ Notes 2</li>
+        <li><img src="images/PDF.png" alt="">&nbsp; Notes 3</li>
+    </ul>
+</details> 
+    </div>
+
+    <div class="subs">
+        <details><Summary>History/Computers</Summary>
+    <ul>
+        <li><img style="" src="images/PDF.png" alt="">&nbsp; Notes 1</li>
+        <li><img src="images/PDF.png" alt="">&nbsp;
+ Notes 2</li>
+        <li><img src="images/PDF.png" alt="">&nbsp; Notes 3</li>
+    </ul>
+</details> 
+    </div>
+    <br><br><br>
+</div>
+
+</div>
+<hr style="border-color: blue;">
+<div class="forms">
+    <div class="clases" style=" color: rgb(4, 134, 255)">--FORM--</div>
+    <div class="form">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSerstJKa4uDwP5bZ_8VpjdhrSyzrggIbj9ZPagRBBWkr19r7A/viewform?embedded=true" width="800" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <div class="con-2">
+        <p>Fill the Form to Join the tuition</p>
+        <p>
+            If form not visible 
+            <a href="https://forms.gle/nbW2szVeD9EMH6hx8">CLICK HERE</a>
+        </p>
+        </div>
+</div>
+</div>
+<br><br><br>
+<hr style="border-color: blue;">
+
+<div class="thank-you">
+    <div class="blue">
+        <div class="blue-c">
+            <h2>
+                <u>Thank You</u>
+            </h2>
+            <p>
+                Thank you for visiting my website. I appreciate your interest in my tuition services for 11th and 12th grade commerce students. If you have any questions or need further information, please feel free to reach out. I'm here to help you achieve academic excellence.
+            </p>
+        </div>
+    </div>
+    
+
+</div>
+<hr style="border-color: blue;">
+<div class="black">
+    <div class="Social">
+        <p>Social Media Platform</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG59cjacYex6D8EMImov2O8psnecmdXuXoNA&s" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_bGIwpxd2gPIh8h_dSMouC0Hg7oftKS5fQCV2xZhlEd8V8AMyJh28OROyMAAIUUfXZc8&usqp=CAU" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA38HLYXwnysCfnv8wS3SpV9ztESyaxYlJiw&s" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7mSBPfA0FWvHG4Vf26iKTyp9qBKJ1fHiKKQ&s" alt="">
+    </div>
+    <div class="Terms">
+        <p>Terms</p>
+        <ul>
+            <li>Terms</li>
+            <li>Policy</li>
+            <li>Certificate</li>
+            <li>Issues</li>
+        </ul>
+    </div>
+    <div class="Services">
+        <p>Services</p>
+        <ul>
+        <li>Tuition</li>
+        <li>Learning</li>
+        <li>Research</li>
+        <li>Training</li>
+    </ul>
+    </div>
+</div>
+<div class="copy">
+    copyright given by government of india @ 2022
+</div>
+</body>
+</html>
